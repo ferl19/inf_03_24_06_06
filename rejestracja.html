@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <title>Rejestracja</title>
+</head>
+<body>
+    <header id="baner">
+        <h1>Formularz rejestracyjny konferencji <em>Nasze Kwiaty</em></h1>
+    </header>
+
+    <main id="glowny">
+        <div id="blok1">
+            <h2>Dane osobowe</h2>
+            <input type="text" name="imie" id="imie" placeholder="Wpisz imię..." required>
+            <input type="text" name="nazwisko" id="nazwisko" placeholder="Wpisz nazwisko..." required>
+            <button type="button" id="kolejny1">Następna karta</button>
+        </div>
+
+        <div id="blok2">
+            <h2>Dane kontaktowe</h2>
+            <input type="email" name="email" id="email" placeholder="Twój e-mail..." required>
+            <input type="tel" name="telefon" id="telefon" placeholder="Twój numer telefonu..." required>
+            <button type="button" id="kolejny2">Następna karta</button>
+        </div>
+
+        <div id="blok3">
+            <h2>Hasło do logowania</h2>
+            <input type="password" name="haslo" id="haslo" placeholder="Podaj hasło" required>
+            <input type="password" name="powtorz-haslo" id="powtorz-haslo" placeholder="Powtórz hasło" required>
+            <button type="button" id="zatwierdz">Zatwierdź</button>
+        </div>
+
+        <script src="skrypt.js"></script>
+    </main>
+
+    <footer class="stopki">
+        <video controls>
+            <source src="motyl.mp4">
+            Przeglądarka nie obsługuje tego formatu
+        </video>
+    </footer>
+
+    <footer class="stopki">
+        <h3>Plan konferencji</h3>
+
+        <table>
+            <tr>
+                <td>9:00 - 12:00 </td>
+                <td>Pielęgnacja roślin</td>
+            </tr>
+
+            <tr>
+                <td>13:00 - 15:00</td>
+                <td>Targi kwiatowe</td>
+            </tr>
+        </table>
+    </footer>
+
+    <footer class="stopki">
+        <p><a href="https://kwiaty.pl/">Internetowa kwiaciarnia</a></p>
+    </footer>
+
+    <footer class="stopki">
+        <p>Formularz wykonał: <a href="https://github.com/ferl19" target="_blank">ferl19</a></p>
+    </footer>
+</body>
+</html>
